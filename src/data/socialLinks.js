@@ -1,32 +1,26 @@
 export const socialLinks = [
 	{
 		id: 1,
-		name: 'Website',
-		icon: 'globe',
-		url: 'https://www.stoman.me/',
+		name: 'GitHub',
+		icon: 'github',
+		url: 'https://github.com/allenapplehead',
 	},
 	{
 		id: 2,
-		name: 'GitHub',
-		icon: 'github',
-		url: 'https://github.com/realstoman',
+		name: 'Linkedin',
+		icon: 'linkedin',
+		url: 'https://www.linkedin.com/in/allentao7/',
 	},
 	{
 		id: 3,
-		name: 'Twitter',
-		icon: 'twitter',
-		url: 'https://twitter.com/realstoman',
+		name: 'Mail',
+		icon: 'mail',
+		url: 'mailto:allen.tao@mail.utoronto.ca',
 	},
 	{
 		id: 4,
-		name: 'LinkedIn',
-		icon: 'linkedin',
-		url: 'https://www.linkedin.com/in/realstoman',
-	},
-	{
-		id: 5,
 		name: 'YouTube',
 		icon: 'youtube',
-		url: 'https://www.youtube.com/c/realstoman',
+		url: 'https://www.youtube.com/channel/UCHB6SeUT8tRKPbdgq9At18w',
 	},
 ];
