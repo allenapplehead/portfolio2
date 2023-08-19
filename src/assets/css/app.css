@@ -12,206 +12,206 @@
 /* Custom Styles Below */
 
 body {
-	font-family: 'GeneralSans-Regular';
+	font-family: 'AppleGaramond-Regular';
 }
 
 /* Theme Colors */
 
 /* Fonts */
 @font-face {
-	font-family: 'GeneralSans-Variable';
-	src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Variable.woff') format('woff'),
-		url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+	font-family: 'AppleGaramond-Variable';
+	src: url("../fonts/AppleGaramond.woff2") format("woff2"),
+		url("../fonts/AppleGaramond.woff") format("woff"),
+		url("../fonts/AppleGaramond.ttf") format("truetype");
 	font-weight: 200 700;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-variable {
-	font-family: 'GeneralSans-Variable';
+	font-family: 'AppleGaramond-Variable';
 }
 
 @font-face {
-	font-family: 'GeneralSans-VariableItalic';
-	src: url('../fonts/GeneralSans-VariableItalic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-VariableItalic.woff') format('woff'),
-		url('../fonts/GeneralSans-VariableItalic.ttf') format('truetype');
+	font-family: "AppleGaramond-VariableItalic";
+	src: url("../fonts/AppleGaramond.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond.woff") format("woff"),
+	  url("../fonts/AppleGaramond.ttf") format("truetype");
 	font-weight: 200 700;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-variable-italic {
-	font-family: 'GeneralSans-VariableItalic';
+	font-family: 'AppleGaramond-VariableItalic';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Extralight';
-	src: url('../fonts/GeneralSans-Extralight.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Extralight.woff') format('woff'),
-		url('../fonts/GeneralSans-Extralight.ttf') format('truetype');
+	font-family: "AppleGaramond-Extralight";
+	src: url("../fonts/AppleGaramond-Light.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Light.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Light.ttf") format("truetype");
 	font-weight: 200;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-extralight {
-	font-family: 'GeneralSans-Extralight';
+	font-family: 'AppleGaramond-Extralight';
 }
 
 @font-face {
-	font-family: 'GeneralSans-ExtralightItalic';
-	src: url('../fonts/GeneralSans-ExtralightItalic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-ExtralightItalic.woff') format('woff'),
-		url('../fonts/GeneralSans-ExtralightItalic.ttf') format('truetype');
+	font-family: "AppleGaramond-ExtralightItalic";
+	src: url("../fonts/AppleGaramond-LightItalic.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-LightItalic.woff") format("woff"),
+	  url("../fonts/AppleGaramond-LightItalic.ttf") format("truetype");
 	font-weight: 200;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-extralight-italic {
-	font-family: 'GeneralSans-ExtralightItalic';
+	font-family: 'AppleGaramond-ExtralightItalic';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Light';
-	src: url('../fonts/GeneralSans-Light.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Light.woff') format('woff'),
-		url('../fonts/GeneralSans-Light.ttf') format('truetype');
+	font-family: "AppleGaramond-Light";
+	src: url("../fonts/AppleGaramond-Light.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Light.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Light.ttf") format("truetype");
 	font-weight: 300;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-light {
-	font-family: 'GeneralSans-Light';
+	font-family: 'AppleGaramond-Light';
 }
 
 @font-face {
-	font-family: 'GeneralSans-LightItalic';
-	src: url('../fonts/GeneralSans-LightItalic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-LightItalic.woff') format('woff'),
-		url('../fonts/GeneralSans-LightItalic.ttf') format('truetype');
+	font-family: "AppleGaramond-LightItalic";
+	src: url("../fonts/AppleGaramond-LightItalic.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-LightItalic.woff") format("woff"),
+	  url("../fonts/AppleGaramond-LightItalic.ttf") format("truetype");
 	font-weight: 300;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-light-italic {
-	font-family: 'GeneralSans-LightItalic';
+	font-family: 'AppleGaramond-LightItalic';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Regular';
-	src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Regular.woff') format('woff'),
-		url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+	font-family: "AppleGaramond-Regular";
+	src: url("../fonts/AppleGaramond.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond.woff") format("woff"),
+	  url("../fonts/AppleGaramond.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-regular {
-	font-family: 'GeneralSans-Regular';
+	font-family: 'AppleGaramond-Regular';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Italic';
-	src: url('../fonts/GeneralSans-Italic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Italic.woff') format('woff'),
-		url('../fonts/GeneralSans-Italic.ttf') format('truetype');
+	font-family: "AppleGaramond-Italic";
+	src: url("../fonts/AppleGaramond-Italic.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Italic.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Italic.ttf") format("truetype");
 	font-weight: 400;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-italic {
-	font-family: 'GeneralSans-Italic';
+	font-family: 'AppleGaramond-Italic';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Medium';
-	src: url('../fonts/GeneralSans-Medium.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Medium.woff') format('woff'),
-		url('../fonts/GeneralSans-Medium.ttf') format('truetype');
+	font-family: "AppleGaramond-Medium";
+	src: url("../fonts/AppleGaramond.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond.woff") format("woff"),
+	  url("../fonts/AppleGaramond.ttf") format("truetype");
 	font-weight: 500;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-medium {
-	font-family: 'GeneralSans-Medium';
+	font-family: 'AppleGaramond-Medium';
 }
 
 @font-face {
-	font-family: 'GeneralSans-MediumItalic';
-	src: url('../fonts/GeneralSans-MediumItalic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-MediumItalic.woff') format('woff'),
-		url('../fonts/GeneralSans-MediumItalic.ttf') format('truetype');
+	font-family: "AppleGaramond-MediumItalic";
+	src: url("../fonts/AppleGaramond-Italic.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Italic.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Italic.ttf") format("truetype");
 	font-weight: 500;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-medium-italic {
-	font-family: 'GeneralSans-MediumItalic';
+	font-family: 'AppleGaramond-MediumItalic';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Semibold';
-	src: url('../fonts/GeneralSans-Semibold.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Semibold.woff') format('woff'),
-		url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
+	font-family: "AppleGaramond-Semibold";
+	src: url("../fonts/AppleGaramond-Bold.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Bold.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Bold.ttf") format("truetype");
 	font-weight: 600;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-semibold {
-	font-family: 'GeneralSans-Semibold';
+	font-family: 'AppleGaramond-Semibold';
 }
 
 @font-face {
-	font-family: 'GeneralSans-SemiboldItalic';
-	src: url('../fonts/GeneralSans-SemiboldItalic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-SemiboldItalic.woff') format('woff'),
-		url('../fonts/GeneralSans-SemiboldItalic.ttf') format('truetype');
+	font-family: "AppleGaramond-SemiboldItalic";
+	src: url("../fonts/AppleGaramond-Italic.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Italic.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Italic.ttf") format("truetype");
 	font-weight: 600;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-semibold-italic {
-	font-family: 'GeneralSans-SemiboldItalic';
+	font-family: 'AppleGaramond-SemiboldItalic';
 }
 
 @font-face {
-	font-family: 'GeneralSans-Bold';
-	src: url('../fonts/GeneralSans-Bold.woff2') format('woff2'),
-		url('../fonts/GeneralSans-Bold.woff') format('woff'),
-		url('../fonts/GeneralSans-Bold.ttf') format('truetype');
+	font-family: "AppleGaramond-Bold";
+	src: url("../fonts/AppleGaramond-Bold.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-Bold.woff") format("woff"),
+	  url("../fonts/AppleGaramond-Bold.ttf") format("truetype");
 	font-weight: 700;
 	font-display: swap;
 	font-style: normal;
 }
 
 .font-general-bold {
-	font-family: 'GeneralSans-Bold';
+	font-family: 'AppleGaramond-Bold';
 }
 
 @font-face {
-	font-family: 'GeneralSans-BoldItalic';
-	src: url('../fonts/GeneralSans-BoldItalic.woff2') format('woff2'),
-		url('../fonts/GeneralSans-BoldItalic.woff') format('woff'),
-		url('../fonts/GeneralSans-BoldItalic.ttf') format('truetype');
+	font-family: "AppleGaramond-BoldItalic";
+	src: url("../fonts/AppleGaramond-BoldItalic.woff2") format("woff2"),
+	  url("../fonts/AppleGaramond-BoldItalic.woff") format("woff"),
+	  url("../fonts/AppleGaramond-BoldItalic.ttf") format("truetype");
 	font-weight: 700;
 	font-display: swap;
 	font-style: italic;
 }
 
 .font-general-bold-italic {
-	font-family: 'GeneralSans-BoldItalic';
+	font-family: 'AppleGaramond-BoldItalic';
 }
 
 /* Active class for navigation menu */
