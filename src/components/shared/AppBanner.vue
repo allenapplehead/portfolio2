@@ -192,7 +192,6 @@ export default {
 				<div class="w-2/3 ml-4">
 					<p class="
                 font-general-medium
-                mt-2
                 text-lg
                 sm:text-xl
                 xl:text-2xl
