@@ -49,7 +49,21 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/1',
+		path: '/projects/6',
+		name: 'Autonomous Racing Drone',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ProjectADR.vue'
+			),
+		meta: {
+			title: 'Allen - Single Project',
+		},
+	},
+	{
+		path: '/projects/5',
 		name: 'UTAT UAS: Cyclone',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
@@ -63,7 +77,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/2',
+		path: '/projects/4',
 		name: 'Touch Guitar',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
@@ -91,7 +105,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/4',
+		path: '/projects/2',
 		name: '3D Chess',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
@@ -105,7 +119,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/projects/5',
+		path: '/projects/1',
 		name: 'VEX Robotics',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
