@@ -63,7 +63,8 @@ export default {
 				text-center
 				sm:text-left
 				leading-normal
-				text-gray-400
+				text-gray-500
+				dark:text-gray-200
 				tracking-wider
 				">
 				<b>I like to make things that move</b>
@@ -110,12 +111,13 @@ export default {
 				text-left
 				sm:text-left
 				leading-none
-				text-gray-400
+				text-gray-500
+				dark:text-gray-200
 				tracking-wider">
 				Currently, I am a Summer Research Student at the <a
 					class="text-blue-600 font-general-semibold no-underline hover:underline"
 					href="http://asrl.utias.utoronto.ca/" target="_blank">Autonomous Space Robotics Laboratory</a> with
-				Prof. Tim Barfoot, investigating LiDAR based indoor localization.
+				Prof. Tim Barfoot, investigating <b>LiDAR based indoor localization</b>.
 			</p>
 			<p class="
 				font-general-medium
@@ -126,13 +128,14 @@ export default {
 				text-left
 				sm:text-left
 				leading-none
-				text-gray-400
+				text-gray-500
+				dark:text-gray-200
 				tracking-wider">
 				Previously, I had the pleasure of working as an undergraduate researcher at the <a
 					class="text-blue-600 font-general-semibold no-underline hover:underline"
 					href="https://www.dynsyslab.org/vision-news/" target="_blank">Learning Systems and Robotics Lab</a>
-				under Prof. Angela Schoellig. I investigated control barrier functions and the impacts of code
-				reproducibility from robotics, control, and learning perspectives.
+				under Prof. Angela Schoellig. I investigated <b>control barrier functions</b> and the <b>impacts of code
+				reproducibility</b> from robotics, control, and learning perspectives.
 			</p>
 			<p class="
 				font-general-medium
@@ -143,10 +146,11 @@ export default {
 				text-left
 				sm:text-left
 				leading-none
-				text-gray-400
+				text-gray-500
+				dark:text-gray-200
 				tracking-wider">
-				In my spare time, I love to build. I have always been big into design teams, from leading my VEX Robotics
-				team 2381C to international distinctions at the World Championships, to building an autonomous hexacopter as
+				Outside of academia, have always been big into <b>design teams</b>. In high school, I captained my VEX Robotics
+				team 2381C to finish <b>top 10 in the World Championships</b>. Currently, I am building an <b>autonomous hexacopter</b> as
 				Software Lead on the University of Toronto Aerospace Team's Unmanned Aerial System Division.
 			</p>
 		</div>
@@ -195,7 +199,8 @@ export default {
                 text-left
                 sm:text-left
                 leading-none
-                text-gray-400
+                text-gray-500
+				dark:text-gray-200
                 tracking-wider
               ">
 						<b class="font-general-semibold">University of Toronto</b> <span class="font-general-light">(cGPA:
@@ -215,7 +220,8 @@ export default {
           class="
             font-general-light
             mt-4
-            text-gray-400
+            text-gray-500
+				dark:text-gray-200
             tracking-wider
           "
         >

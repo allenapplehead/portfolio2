@@ -7,7 +7,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Stoman - Home',
+			title: 'Allen - Home',
 		},
 	},
 	{
@@ -19,7 +19,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 		meta: {
-			title: 'Stoman - About',
+			title: 'Allen - About',
 		},
 	},
 	{
@@ -31,7 +31,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'Stoman - Projects',
+			title: 'Allen - Projects',
 		},
 	},
 	{
@@ -45,7 +45,77 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'Stoman - Single Project',
+			title: 'Allen - Single Project',
+		},
+	},
+	{
+		path: '/projects/1',
+		name: 'UTAT UAS: Cyclone',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ProjectUAS.vue'
+			),
+		meta: {
+			title: 'Allen - Single Project',
+		},
+	},
+	{
+		path: '/projects/2',
+		name: 'Touch Guitar',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ProjectP2.vue'
+			),
+		meta: {
+			title: 'Allen - Single Project',
+		},
+	},
+	{
+		path: '/projects/3',
+		name: 'Autoaim Crossbow',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ProjectAutoaim.vue'
+			),
+		meta: {
+			title: 'Allen - Single Project',
+		},
+	},
+	{
+		path: '/projects/4',
+		name: '3D Chess',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ProjectChess.vue'
+			),
+		meta: {
+			title: 'Allen - Single Project',
+		},
+	},
+	{
+		path: '/projects/5',
+		name: 'VEX Robotics',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/ProjectVEX.vue'
+			),
+		meta: {
+			title: 'Allen - Single Project',
 		},
 	},
 	{
@@ -57,7 +127,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
 		meta: {
-			title: 'Stoman - Contact',
+			title: 'Allen - Contact',
 		},
 	},
 ];

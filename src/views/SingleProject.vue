@@ -3,7 +3,7 @@ import feather from 'feather-icons';
 import ProjectHeader from '../components/projects/ProjectHeader.vue';
 import ProjectGallery from '../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../components/projects/ProjectInfo.vue';
-import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
+// import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
 
 export default {
 	name: 'Projects',
@@ -11,7 +11,7 @@ export default {
 		ProjectHeader,
 		ProjectGallery,
 		ProjectInfo,
-		ProjectRelatedProjects,
+		// ProjectRelatedProjects,
 	},
 	data: () => {
 		return {
@@ -183,7 +183,7 @@ export default {
 		<ProjectInfo :projectInfo="projectInfo" />
 
 		<!-- Project related projects -->
-		<ProjectRelatedProjects :relatedProject="relatedProject" />
+		<!-- <ProjectRelatedProjects :relatedProject="relatedProject" /> -->
 	</div>
 </template>
 

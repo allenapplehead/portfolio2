@@ -18,7 +18,7 @@ export default {
 		<!-- Single project left section details -->
 		<div class="w-full sm:w-1/3 text-left">
 			<!-- Single project client details -->
-			<div class="mb-7">
+			<!-- <div class="mb-7">
 				<p
 					class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
 				>
@@ -43,7 +43,7 @@ export default {
 						>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 
 			<!-- Single project objectives -->
 			<div class="mb-7">
