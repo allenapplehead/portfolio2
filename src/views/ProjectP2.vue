@@ -101,7 +101,7 @@ export default {
                         id: 2,
                         name: 'Youtube',
                         icon: 'youtube',
-                        url: 'https://youtu.be/_LgjldB_t7c',
+                        url: 'https://youtu.be/X0F2iBCeoXg',
                     },
                     // {
                     // 	id: 3,
