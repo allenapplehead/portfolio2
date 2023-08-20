@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-	<a @click.prevent="toggleTheme" aria-label="Theme Switcher">
+	<a href="#" @click.prevent="toggleTheme" aria-label="Theme Switcher">
 		<i
 			v-if="theme === 'light'"
 			data-feather="moon"
