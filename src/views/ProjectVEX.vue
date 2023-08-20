@@ -38,7 +38,7 @@ export default {
             projectInfo: {
                 objectivesHeading: 'Objective',
                 objectivesDetails:
-                    "I had the pleasure of competing in 3 seasons, with the latter 2 as Team Captain, Lead Builder, Programmer, and Driver of my team, 2381C. Some highlights include leading my team to finish top 10 internationally at the 2021 VEX Robotics Live Remote Skills World Championship, becoming the most awarded team in Canada that year, and me deriving our custom autonomous motion algorithm that catalyzed said results, which was so robust we ran it in place of our driver!",
+                    "I competed in 3 seasons, with the latter 2 as Team Captain, Lead Builder, Programmer, and Driver of my team, 2381C. Some highlights include leading my team to finish top 10 internationally at the 2021 VEX Robotics Live Remote Skills World Championship, becoming the most awarded team in Canada that year, and me deriving our custom autonomous motion algorithm that catalyzed said results, which was so robust we ran it in place of our driver!",
                 technologies: [
                     {
                         title: 'Tools & Technologies',
