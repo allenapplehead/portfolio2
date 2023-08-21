@@ -2,7 +2,7 @@
 export default {
     data: () => {
         return {
-            lastModifiedDate: new Date().toLocaleDateString(),
+            lastModifiedDate: new Date(document.lastModified).toLocaleDateString(),
         };
     },
 };
