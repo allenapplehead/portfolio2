@@ -2,7 +2,8 @@
 export default {
     data: () => {
         return {
-            lastModifiedDate: new Date(document.lastModified).toLocaleDateString(),
+            // This should be updated manually or via a build tool/script before each deployment
+            lastModifiedDate: "2023-08-23",
         };
     },
 };
