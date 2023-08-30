@@ -227,7 +227,7 @@ export default {
       sm:flex-row
       mt-12
       sm:mt-10
-    " id="education">
+    " id="publication">
 		<div class="w-full mx-10 p-10">
 			<h2 class="
             font-general-semibold
