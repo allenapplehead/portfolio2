@@ -214,18 +214,68 @@ export default {
 				</div>
 
 			</div>
+		</div>
+	</section>
 
-			<!-- <p
-          class="
-            font-general-light
-            mt-4
-            text-gray-500
-				dark:text-gray-200
+
+	<!-- Publications -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<section class="
+      flex flex-col
+      sm:justify-between
+      items-center
+      sm:flex-row
+      mt-12
+      sm:mt-10
+    " id="education">
+		<div class="w-full mx-10 p-10">
+			<h2 class="
+            font-general-semibold
+            text-4xl
+            md:text-4xl
+            xl:text-5xl
+            text-center
+            sm:text-left
+            text-ternary-dark
+            dark:text-primary-light
+            mb-4
             tracking-wider
-          "
-        >
-          My academic journey combines the fascinating fields of robotics and AI, positioning me at the frontier of technological advancement.
-        </p> -->
+          ">
+				Publication(s)
+			</h2>
+
+			<div class="flex flex-row
+                    ">
+
+				<div class="w-1/3">
+					<img v-if="theme === 'light'" src="@/assets/images/opinion.png" alt="Citations vs. Stars" />
+					<img v-else src="@/assets/images/opinion.png" alt="Citations vs. Stars" />
+				</div>
+
+				<div class="w-2/3 ml-4">
+					<p class="
+                font-general-medium
+                text-lg
+                sm:text-xl
+                xl:text-2xl
+                text-left
+                sm:text-left
+                leading-none
+                text-gray-500
+				dark:text-gray-200
+                tracking-wider
+              ">
+						<b class="font-general-semibold">What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities</b><br>
+						<span class="text-sm">Siqi Zhou, Lukas Brunke, <b>Allen Tao</b>, Adam W. Hall, Federico Pizarro Bejarano, Jacopo Panerati, Angela P. Schoellig</span><br>
+						<span class="text-sm">Under Review (Control Systems Magazine)</span><br>
+						<a target="_blank" class="text-sm font-general-semibold text-blue-600 no-underline hover:underline" href="https://arxiv.org/abs/2308.10008">
+							<i class="fas fa-file-pdf mr-2"></i>
+							Paper Link
+						</a>
+					</p>
+				</div>
+
+			</div>
 		</div>
 	</section>
 </template>

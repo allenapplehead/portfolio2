@@ -3,7 +3,7 @@ export default {
     data: () => {
         return {
             // This should be updated manually or via a build tool/script before each deployment
-            lastModifiedDate: "2023-08-23",
+            lastModifiedDate: "2023-08-30",
         };
     },
 };
