@@ -241,7 +241,7 @@ export default {
             mb-4
             tracking-wider
           ">
-				Publication(s)
+				Publications
 			</h2>
 
 			<div class="flex flex-row
