@@ -66,7 +66,7 @@ export default {
                     {
                         id: 3,
                         details:
-                            "I developed the app which displays 6 guitar strings on your mobile phone, along with vibration feedback. I also developed all the Arduino circuit and code that takes the string presses transmitted over Bluetooth and commands servo motors to depress the corresponding strings. Finally, I helped build the wooden housing of our prototype, and performed detailed research into 3D printing altneratives."
+                            "I developed the app which displays 6 guitar strings on your mobile phone, along with vibration feedback. I also developed all the Arduino circuit and code that takes the string presses transmitted over Bluetooth and commands servo motors to depress the corresponding strings. Finally, I helped build the wooden housing of our prototype, and performed detailed research into 3D printing alternatives."
                     },
                     // {
                     //     id: 3,
