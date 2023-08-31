@@ -11,14 +11,15 @@ export default {
 			const newTheme = this.theme === 'light' ? 'dark' : 'light';
 			localStorage.setItem('theme', newTheme);
 			this.$emit('theme-changed', newTheme);
-			this.$router.go();
+			location.reload();
 		},
 	},
 };
 </script>
 
+
 <template>
-	<a href="#" @click.prevent="toggleTheme" aria-label="Theme Switcher">
+	<button @click="toggleTheme" aria-label="Theme Switcher" class="focus:outline-none">
 		<i
 			v-if="theme === 'light'"
 			data-feather="moon"
@@ -29,5 +30,6 @@ export default {
 			data-feather="sun"
 			class="text-gray-200 hover:text-gray-50 w-5"
 		></i>
-	</a>
+	</button>
 </template>
+
