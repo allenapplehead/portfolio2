@@ -23,6 +23,7 @@ export default {
 </script>
 
 <template>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<section class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10" id="banner">
 		<!-- Banner left contents -->
 		<div class="w-full md:w-2/3 text-left mx-10 p-10">
@@ -67,8 +68,27 @@ export default {
 				dark:text-gray-200
 				tracking-wider
 				">
-				<b>I like to make things that move</b>
+				I enjoy solving tough problems in <b>software</b>, <b>robotics</b>, and <b>AI</b>, especially through <b>creative</b> approaches supported by <b>first principles</b>.
 			</p>
+			<div class="
+				font-general-medium
+				mt-2
+				text-lg
+				sm:text-xl
+				xl:text-2xl
+				text-center
+				sm:text-left
+				leading-normal
+				text-gray-500
+				dark:text-gray-200
+				tracking-wider
+				">
+					<p>I'm currently working on:</p>
+						<ul class="text-lg list-disc pl-6">
+							<li>LiDAR based indoor navigation for autonomous robots to intelligently avoid objects <i class="fas fa-home pr-2"></i></li>
+							<li>An autonomous racing drone <i class="fas fa-wind pr-2"></i></li>
+						</ul>
+			</div>
 		</div>
 
 		<!-- Banner right illustration -->
@@ -150,7 +170,7 @@ export default {
 				dark:text-gray-200
 				tracking-wider">
 				Outside of academia, have always been big into <b>design teams</b>. In high school, I captained my VEX Robotics
-				team 2381C to finish <b>top 10 in the World Championships</b>. Currently, I am building an <b>autonomous hexacopter</b> as
+				team 2381C to finish <b>top 10 in the World Championships</b>. Recently, I developed software for autonomous flight of a heavylifting hexacopter as
 				Software Lead on the University of Toronto Aerospace Team's Unmanned Aerial System Division.
 			</p>
 		</div>
@@ -219,7 +239,6 @@ export default {
 
 
 	<!-- Publications -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<section class="
       flex flex-col
       sm:justify-between
