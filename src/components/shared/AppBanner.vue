@@ -86,7 +86,7 @@ export default {
 					<p>I'm currently working on:</p>
 						<ul class="text-lg list-disc pl-6">
 							<li>LiDAR based indoor navigation for autonomous robots to intelligently avoid objects <i class="fas fa-home pr-2"></i></li>
-							<li>An autonomous racing drone <i class="fas fa-wind pr-2"></i></li>
+							<li>3D perception for self driving <i class="fas fa-car pr-2"></i></li>
 						</ul>
 			</div>
 		</div>
@@ -286,7 +286,7 @@ export default {
               ">
 						<b class="font-general-semibold">What is the Impact of Releasing Code with Publications? Statistics from the Machine Learning, Robotics, and Control Communities</b><br>
 						<span class="text-sm">Siqi Zhou, Lukas Brunke, <b>Allen Tao</b>, Adam W. Hall, Federico Pizarro Bejarano, Jacopo Panerati, Angela P. Schoellig</span><br>
-						<span class="text-sm">Under Review (Control Systems Magazine)</span><br>
+						<span class="text-sm">Accepted (IEEE Control Systems Magazine)</span><br>
 						<a target="_blank" class="text-sm font-general-semibold text-blue-600 no-underline hover:underline" href="https://arxiv.org/abs/2308.10008">
 							<i class="fas fa-file-pdf mr-2"></i>
 							Paper Link
